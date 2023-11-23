@@ -1,4 +1,19 @@
 .Home{
-    background: grey;
-    padding: 5em;
+    background: #1f1f1f;
+    height: 100vh;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px whitesmoke solid;
+    .btn{
+        padding: 1em;
+        margin-top: 1em;
+        border: none;
+        border-radius: 1em;
+        cursor: pointer;
+    }
+    .hero{
+        font-size: 2em;
+    }
 }

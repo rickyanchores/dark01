@@ -1,5 +1,11 @@
 @import "../../dark01/src/App.scss";
 @import "../src/Pages/Home/Home.scss";
+@import "../src/Components/Card/Card.scss";
+
+//COLOR PALETTE
+$bgColor: black;
+$primaryColor: whitesmoke;
+$secondaryColor: #333;  
 
 *{
   padding: 0;
@@ -8,7 +14,8 @@
 }
 
 body{
-  background-color: rgb(23, 22, 22);
-  color: whitesmoke;
+  background-color: $bgColor;
+  color: $primaryColor;
   font-family: monospace;
 }
+

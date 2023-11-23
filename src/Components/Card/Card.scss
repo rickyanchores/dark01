@@ -1,0 +1,15 @@
+.Card{
+    //background: black;
+    //border: 5px whitesmoke solid;
+    width: 400px;
+    padding: 1em;
+    border-radius: 1em;
+    margin: auto;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    h3{
+        margin-top: 1em;
+    }
+}
