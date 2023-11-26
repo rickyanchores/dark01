@@ -1,11 +1,16 @@
 @import "../../dark01/src/App.scss";
+@import "../src/Components/Nav/Nav.scss";
 @import "../src/Pages/Home/Home.scss";
 @import "../src/Components/Card/Card.scss";
+@import "../src/Pages/Content/Content.scss";
 
 //COLOR PALETTE
-$bgColor: black;
-$primaryColor: whitesmoke;
+$bgColor: whitesmoke;
+$primaryColor: white;
 $secondaryColor: #333;  
+  //CARD
+$cardBg: black;
+$textColor: whitesmoke;
 
 *{
   padding: 0;
@@ -19,3 +24,21 @@ body{
   font-family: monospace;
 }
 
+.Nav{
+  color: $secondaryColor;
+}
+
+.Home{
+  background: $cardBg;
+  color: $textColor;
+}
+.Content{
+  height: 100vh;
+  border-radius: 1em;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: red;
+  color: $secondaryColor;
+}
